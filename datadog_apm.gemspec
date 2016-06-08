@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'datadog_apm/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'datadog-apm'
+  spec.name          = 'datadog_apm'
   spec.version       = DatadogApm::VERSION
   spec.authors       = ['John Peterson']
   spec.email         = ['johnpipi@gmail.com']
